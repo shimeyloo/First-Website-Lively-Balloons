@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lively Balloons</title>
+  <link rel="icon" href="images/icon.jpg" type="image/icon type">
+
+  <!--CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+
+  <!--Fonts-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <!--Social Media bar-->
+  <div class="topDiv">
+    <a href="mailto: livelyballoonsinc@gmail.com">
+      <img src="images/social_media/mail-24.ico" id="socialMediaLink" alt="email" style="padding-right: 20px">
+    </a>  
+    <a href="https://www.instagram.com/livelyballoons/">
+      <img src="images/social_media/instagram-24.ico" id="socialMediaLink" alt="instagram" style="padding-right: 10px">
+    </a>
+    <a href="https://www.facebook.com/livelyballoons/">
+      <img src="images/social_media/facebook-24.ico" id="socialMediaLink" alt="facebook">
+    </a>
+    <a id="socialMediaLink" style="padding-right: 15px;">209.797.5054 (Hablamos Español) </a>
+    <a>
+      <img src="images/social_media/phone-24.ico" id="socialMediaLink" alt="phone" style="float: right; padding-right: 5px">
+    </a>  
+  </div>
+
+  <!--  Navbar -->
+  <nav class="navbar navbar-expand-sm justify-content-center">
+    
+    <!--Logo left-->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shop.html">SHOP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="deals.html">DEALS</a>
+      </li>
+    </ul>
+    
+    <!--Logo-->
+    <div class="divContainer">
+      <div class="svg hide" id="svg"></div>
+      <img src="images/icon.jpg"  alt="logo" id="logo"  type="button"> 
+    </div>    
+    
+    <!--Logo right-->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="photos.html">PHOTO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT</a>
+      </li>
+    </ul>
+  </nav>
+
+
+    <!--Carousel-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="images/carousel/pic1.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/carousel/pic2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="images/carousel/pic3.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+
+    <div class="servDiv">
+      <h3 class="largeText">BALLOONS FOR EVERY</h3>
+      <h3 class="largeText">OCCASION!!</h3>
+      <img class="diffServ" src="images/diffServ.jpg" alt="Different Services">
+    </div>
+    
+
+    <!-- Van Video -->
+    <div class="vanDiv">
+      <video autoplay muted id="vanVideo">
+        <source src="images/vanVideo.MP4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <p class="vanText">Introducing Lively Balloon's new van!</p>
+    </div>
+
+    <div class="servDiv">
+      <h3 class="mediumText">We have had the pleasure to work with these amazing companies...</h3>
+      <img id="otherCompanies" class="centerBlock" src="images/otherComp.jpg" alt="companies">
+    </div>
+
+    <img class="homeBottom" src="images/homepageBottom.JPG" alt="bottomIMG">
+
+    <div class="bottomDiv">©2018 Lively Balloons</div>
+    
+</body>
+
+<!--Javascript-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js" 
+    integrity="sha512-w58XJ/0dVbEfZVJoJyBUOTMGBWmIW4jEYJSA0898d2L0Ghpum0FvwK7qTuHhkTctApzrchv3Neli+28ajI4+fg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="scripts.js"></script>
+
+</html>

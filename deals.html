@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lively Balloons</title>
+  <link rel="icon" href="images/icon.jpg" type="image/icon type">
+
+  <!--CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+  <!--Social Media bar-->
+  <div class="topDiv">
+    <a href="mailto: livelyballoonsinc@gmail.com">
+      <img src="images/social_media/mail-24.ico" id="socialMediaLink" alt="email" style="padding-right: 20px">
+    </a>  
+    <a href="https://www.instagram.com/livelyballoons/">
+      <img src="images/social_media/instagram-24.ico" id="socialMediaLink" alt="instagram" style="padding-right: 10px">
+    </a>
+    <a href="https://www.facebook.com/livelyballoons/">
+      <img src="images/social_media/facebook-24.ico" id="socialMediaLink" alt="facebook">
+    </a>
+    <a id="socialMediaLink" style="padding-right: 15px;">209.797.5054 (Hablamos Español) </a>
+    <a>
+      <img src="images/social_media/phone-24.ico" id="socialMediaLink" alt="phone" style="float: right; padding-right: 5px">
+    </a>  
+  </div>
+
+  <!--  Navbar -->
+  <nav class="navbar navbar-expand-sm justify-content-center">
+    
+    <!--Logo left-->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="shop.html">SHOP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="deals.html">DEALS</a>
+      </li>
+    </ul>
+    
+    <!--Logo-->
+    <div class="divContainer">
+      <div class="svg hide" id="svg"></div>
+      <img src="images/icon.jpg"  alt="logo" id="logo"  type="button"> 
+    </div>      
+    
+    <!--Logo right-->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="photos.html">PHOTO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="about.html">ABOUT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT</a>
+      </li>
+    </ul>
+  </nav>
+
+  <img src="images/line.png" class="centerLine"> 
+
+  <!--Coupon-->
+  <div class="centerBlock coupon">
+    <h3>10% off your next purchase!</h3>
+    <h4>Download and present this coupon to receive 10% off your next purchase!</h4>
+    <a class="btn btn-outline-secondary centerBlock" id="couponButton" href="images/coupon.pdf" role="button">10% OFF COUPON</a>
+  </div>
+
+  <div class="bottomDiv">©2018 Lively Balloons</div>
+    
+</body>
+
+<!--Javascript-->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" 
+integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" 
+integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" 
+integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrFHy5FreIDUir1lMOrsX5Ef54cUbPvQU&callback=initMap&libraries=&v=weekly"async></script> <!--Google Maps-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.8/lottie.min.js" 
+    integrity="sha512-w58XJ/0dVbEfZVJoJyBUOTMGBWmIW4jEYJSA0898d2L0Ghpum0FvwK7qTuHhkTctApzrchv3Neli+28ajI4+fg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="scripts.js"></script>
+
+</html>
